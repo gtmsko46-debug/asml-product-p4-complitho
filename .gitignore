@@ -1,1 +1,8 @@
-.venv/\n__pycache__/\n*.egg-info/\n.pytest_cache/\ndist/\nbuild/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+*.egg
