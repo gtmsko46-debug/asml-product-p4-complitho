@@ -1,7 +1,10 @@
-# asml-product-p4-complitho
+# Lab bind — asml-product-p4-complitho
 
-Owned by the ASML Grok Bot product/research track on **gtmsko46-debug**.
+See [`SPEC.md`](SPEC.md).
 
-- Shared bench + tickets: https://github.com/gtmsko46-debug/asml-bench
-- Harness: lasercode (Foreman-only until Grok API keys are wired)
-- Status: **setup only — do not hill-climb until go-live**
+- **Sandbox:** `labs/p4-polarization/solver.py (+ labs/p7-wavelength/solver.py)`
+- **Eval:** frozen labs/p4-polarization/eval.py and labs/p7-wavelength/eval.py (product may AND both)
+- **Card:** `polarization-pw-v1 / wavelength-agile-v1`
+- **Dual-gate:** dual-gate product SEED then KEEP; Critic forbids unconstrained MLP-only fits
+
+Live weights: `ASML_BENCH_ROOT` / product-specific override env (set at M1).
