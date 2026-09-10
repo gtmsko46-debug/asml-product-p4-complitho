@@ -35,7 +35,7 @@ report = process_window(source_pol=..., wavelength_nm=..., mask=...)
 
 ## Milestones
 1. **M0 Spec** — this document + README champion job (this PR)
-2. **M1 Package** — importable module + SEED `reference_*` + tests
+2. **M1 Package** — in flight (this PR)
 3. **M2 Dual-gate** — HT pair via Foreman; Critic+Repro+Diplomat
 4. **M3 Ship** — `reference_*` sync + ship-queue Issue close
 

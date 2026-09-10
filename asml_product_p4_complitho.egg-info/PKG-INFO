@@ -1,3 +1,20 @@
+Metadata-Version: 2.4
+Name: asml_product_p4_complitho
+Version: 0.1.0
+Summary: Champion-facing polarization + wavelength-agile computational lithography product (P4/P7).
+Author: Product Manager Bot / Comp-Litho Product PI
+License: Proprietary
+Keywords: asml,fel,polarization,wavelength,computational-lithography
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Private :: Do Not Upload
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+
 # asml-product-p4-complitho
 
 **Applications-recognizable process-window / EPE** with polarization and wavelength as first-class imaging inputs (P4 + P7).
