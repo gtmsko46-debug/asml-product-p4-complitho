@@ -1,5 +1,7 @@
 # asml-product-p4-complitho
 
+> **Champion FREEZE (2026-09-10):** no new hills / no new tickets. This README is the ship surface — polish docs only. See asml-bench `corpus/notes/champion-freeze-2026-09-10-product-ship.md`.
+
 **Applications-recognizable process-window / EPE** with polarization and wavelength as first-class imaging inputs (P4 + P7).
 
 | | |
