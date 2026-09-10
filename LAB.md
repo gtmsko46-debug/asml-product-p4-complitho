@@ -2,9 +2,11 @@
 
 See [`SPEC.md`](SPEC.md).
 
-- **Sandbox:** `labs/p4-polarization/solver.py (+ labs/p7-wavelength/solver.py)`
-- **Eval:** frozen labs/p4-polarization/eval.py and labs/p7-wavelength/eval.py (product may AND both)
-- **Card:** `polarization-pw-v1 / wavelength-agile-v1`
-- **Dual-gate:** dual-gate product SEED then KEEP; Critic forbids unconstrained MLP-only fits
+| Path | Sandbox | Card |
+|------|---------|------|
+| P4 polarization | `labs/p4-polarization/solver.py` | `imaging-optics-v1` |
+| P7 wavelength | `labs/p7-wavelength/solver.py` | `wavelength-agile-v1` |
 
-Live weights: `ASML_BENCH_ROOT` / product-specific override env (set at M1).
+Env: `ASML_BENCH_ROOT`, `ASML_P4_SOLVER_PATH`, `ASML_P7_SOLVER_PATH`.
+
+Bundled `reference_solver` = lab SEED baselines (M1). Product KEEP sync only after dual-gate Critic+Repro+Diplomat.
