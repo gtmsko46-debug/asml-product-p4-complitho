@@ -2,6 +2,8 @@
 
 > **Champion FREEZE (2026-09-10):** no new hills / no new tickets. This README is the ship surface — polish docs only. See asml-bench `corpus/notes/champion-freeze-2026-09-10-product-ship.md`.
 
+Champion docs: [asml-factory-showcase](https://github.com/gtmsko46-debug/asml-factory-showcase)
+
 **Applications-recognizable process-window / EPE** with polarization and wavelength as first-class imaging inputs (P4 + P7).
 
 | | |
